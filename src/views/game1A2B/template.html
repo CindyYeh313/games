@@ -1,0 +1,9 @@
+<div id="1A2B">
+  <h1>1A2B Game</h1>
+  <div class="form">
+    <input type="text" v-model="input" />{{answer}}
+    <button @click="submit">送出</button>
+    <div class="wrong" v-show="isWrong">格式錯誤</div>
+  </div>
+  <div class="list" v-for="item in answerList">{{item}}</div>
+</div>

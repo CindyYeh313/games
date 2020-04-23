@@ -1,0 +1,18 @@
+@import '@/assets/style/_variable.scss';
+* {
+  text-align: center;
+  justify-content: center;
+  background-color: $bg1A2B;
+}
+h1 {
+  color: $main1A2B;
+}
+.form {
+  height: 100px;
+}
+.list {
+  margin: 10px auto;
+  background-color: $main1A2B;
+  color: #fff;
+  width: 60%;
+}
